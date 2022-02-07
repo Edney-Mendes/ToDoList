@@ -2,7 +2,7 @@
      static lastid = 0;
 
      constructor(text){
-         this.id = Item.lastId++;
+         this.id = Item.lastid++;
          this.text = text;
          this.done = false;
      }
